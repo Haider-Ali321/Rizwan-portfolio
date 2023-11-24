@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="path/to/bootstrap.min.css" rel="stylesheet">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./script.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="sumit-icon">
+            <div id="thankYouMessage" style="display: none;" class="alert alert-success text-center text-success" role="alert">
+                <div class="icon ">
+                <!-- <i class='bx bxs-check-circle'></i> -->
+                <!-- <img src="../img/check-removebg-preview.png" alt=""> -->
+    
+                </div>
+                <p class="fw-bold">Thank you for your submission!</p>
+            </div>
+        </div>
+        <div class="form d-flex justify-content-center align-items-center">            
+        <form id="contactForm" method="post" class="">
+            <h3 class="text-light text-center">Contact Support</h3>
+            <div class="mb-3">
+                <input type="text" class="form-control bg-transparent text-light" id="name" name="name" required placeholder="Name">
+            </div>
+    
+            <div class="mb-3">
+                <input type="number" class="form-control bg-transparent text-light" id="number" name="number" required placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control bg-transparent text-light" id="email" name="email" required placeholder="Email">
+            </div>
+    
+            <div class="mb-3">
+                <textarea class="form-control bg-transparent text-light" id="message" name="message" rows="4" required placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="btn  d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+
+            </div>
+    
+           
+        </form>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script>
+        function submitForm() {
+            // You can add form validation here before showing the thank-you message
+            // For simplicity, I'm directly showing the thank-you message here
+    
+            // Hide the form
+            document.getElementById('contactForm').style.display = 'none';
+    
+            // Show the thank-you message
+            document.getElementById('thankYouMessage').style.display = 'block';
+        }
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="path/to/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    /* background-color: aquamarine; */
+}
+
+#contactForm{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.59) 0%, rgba(0, 0, 0, 0.59) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+#thankYouMessage{
+    /* height: 280px; */
+    /* width: 280px; */
+    /* border-radius: 50%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+/* .icon img{
+    border-radius: 50px;
+    height: 100px;
+
+} */
+
+input::placeholder{
+    color: white !important;
+}

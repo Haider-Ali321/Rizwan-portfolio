@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background: linear-gradient(
+        #1a2980,
+        #016463);
+}
+
+body{
+    /* background: linear-gradient(270deg, #2980b9, #2c3e50); */
+    background: linear-gradient(     
+#00d2ff,
+#928dab
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home{
+    background: linear-gradient(
+        #1a2980,
+        #26d0ce);
+}
+
+
+
+.inner-home h1{
+        color: white;
+        text-shadow: 1px 1px 2px rgb(156, 118, 118), 0 0 25px rgb(98, 98, 148), 0 0 5px rgb(142, 142, 189);
+      
+}
+.img img{
+    height: 300px;
+    box-shadow: 10px 10px 5px 10px lightblue;
+
+}
+.social-icon .bx{
+    border: 2px solid white;
+
+
+}
+
+.social-icon .bx:hover{
+    color: black;
+    border: 2px solid black;
+
+}
+
+.about img{
+    height: 300px;
+    /* width: 300px; */
+}
+
+.inner-footer li{
+    list-style-type: none;
+}
+.inner-footer li:hover{
+    color: aqua;
+}
+.inner-footer i:hover{
+    color: aqua;
+
+}
+.inner-footer img:hover{
+background-color: blue;
+}
+.recent-inner img{
+    height: 180px;
+}
+.btn-1{
+    background-color: rgb(216, 82, 58);
+}
+
+/* 
+@media (max-width:500px) {
+    .container {
+        display: block;
+    
+    }
+    img{
+        text-align: center;
+    }
+    
+} */
