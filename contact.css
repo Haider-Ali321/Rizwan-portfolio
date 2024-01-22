@@ -1,0 +1,23 @@
+body{
+    background-color: silver;
+}
+
+#contactForm{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.59) 0%, rgba(0, 0, 0, 0.59) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
+
+}
+input::placeholder{
+    /* color: white !important; */
+}
+Form{
+    /* border: 2px solid rgb(160, 104, 104); */
+    box-shadow: 5px 5px 5px 5px rgb(76, 103, 112);
+
+}
+.btn:hover{
+    background-color: rgb(17, 75, 102);
+    color: rgb(231, 229, 231);
+}

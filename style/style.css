@@ -36,14 +36,14 @@ body{
 
 }
 .social-icon .bx{
-    border: 2px solid white;
+    border: 2px solid black;
 
 
 }
 
 .social-icon .bx:hover{
-    color: black;
-    border: 2px solid black;
+    color: rgb(10, 10, 10);
+    border: 2px solid rgb(250, 250, 250);
 
 }
 
